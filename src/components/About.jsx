@@ -12,8 +12,7 @@ function About() {
     <section id="about">
         <div className="wrapper">
             <h3>About</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe ut recusandae possimus sit repellat! Omnis voluptas ab mollitia accusantium hic, fugit quo iusto quibusdam voluptatibus similique incidunt asperiores. Illum, id!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, amet?</p>
+            <p>Muh. Nur Ilham Nurdin, commonly known as Garattae, is an Informatics student at Universitas Teknologi Digital Indonesia. Garattae has a profound interest in web development, with a particular focus on front-end and blockchain development. Passionate about creating innovative and efficient digital solutions, Garattae is dedicated to advancing their skills and knowledge in these cutting-edge fields.</p>
             <h4>Programing Language & Tools</h4>
             <div className="skills">
                 <FaHtml5 /><FaCss3Alt /><IoLogoJavascript /><FaReact /><FaPhp /><IoLogoFirebase /><FaBootstrap />
