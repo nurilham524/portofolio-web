@@ -9,6 +9,10 @@ import { RiFlutterFill } from "react-icons/ri";
 import { SiMysql } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import { FaNode } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaFigma } from "react-icons/fa";
+import { SiAndroidstudio } from "react-icons/si";
+import { RiNextjsFill } from "react-icons/ri";
 
 import "../styles/About.css";
 function About() {
@@ -37,6 +41,10 @@ function About() {
           <SiMysql />
           <VscVscode />
           <FaNode />
+          <FaGithub />
+          <FaFigma />
+          <SiAndroidstudio />
+          <RiNextjsFill />
         </div>
       </div>
     </section>
