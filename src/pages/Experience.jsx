@@ -3,8 +3,8 @@ import 'react-vertical-timeline-component/style.min.css';
 
 import { MdOutlineScience } from "react-icons/md";
 import { MdPhonelink } from "react-icons/md";
-import { BiLogoFlutter } from "react-icons/bi";
-import { SiMysql } from "react-icons/si";
+import { GiOrganigram } from "react-icons/gi";
+import { GiChickenOven } from "react-icons/gi";
 
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -54,11 +54,11 @@ function Experience() {
             className="vertical-timeline-element--work"
             date="2023 - Present"
             iconStyle={{ background: '#222831', color: '#fff' }}
-            icon={<BiLogoFlutter />
+            icon={<GiOrganigram />
             }
           >
             <h3 className="vertical-timeline-element-title">board of directors of the institution</h3>
-            <h4 className="vertical-timeline-element-subtitle">Informatics Department Student Association - Yogyakarta, Indonesia</h4>
+            <h4 className="vertical-timeline-element-subtitle">Informatics Department Student Association - Indonesian Digital Technology University</h4>
             <p>
             • Board of Advisors of the Organization (2023 - Present)
             • Conducted social services in the field of Networking
@@ -68,15 +68,20 @@ function Experience() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2010 - 2011"
+            date="2024 - Present"
             iconStyle={{ background: '#222831', color: '#fff' }}
-            icon={<SiMysql />
+            icon={<GiChickenOven  />
             }
           >
-            <h3 className="vertical-timeline-element-title">Art Director</h3>
-            <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+            <h3 className="vertical-timeline-element-title">Admin & Accounting</h3>
+            <h4 className="vertical-timeline-element-subtitle">Yogyakarta Lonak Grilled Chicken</h4>
             <p>
-              Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+            • Creating a performance dashboard to monitor monthly performance:
+            • Input daily data on sales, expenses, and inventory flow.
+            • Act as an accountant using spreadsheets.
+            • Create an employee schedule and track daily attendance.
+            • Manage financial flows, including transfers, salary payments, and vendor payments.
+
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
